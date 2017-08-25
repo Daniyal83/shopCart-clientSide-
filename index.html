@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title></title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <h1 id="cartTitle">Спиcок покупок</h1>
+<div class="price-amount">
+    <table id="cart">
+       <thead>
+        <th></th>
+        <th></th>
+        <th id="price">Цена</th>
+        <th id="amount">Количество</th>
+       </thead>        
+            <tbody>
+            <tr>
+                <td class="image"><img src="hair_clipper.jpg" alt=""></td>
+                <td><span class="name">Машинка для стрижки детских волос<br>
+                Ramill Baby Hair Clipper BHC330</span><br>
+                <p><span class="manufactura">Производитель X</span><br>
+                <span class="kat">Категория 1 > Категория 1.2 > Категория 1.3</span>
+                </p>
+                <button class="delete">Удалить</button>
+                </td>
+                <td class="price">2499 руб.</td>
+                <td><input type="number" value="5"></td>
+            </tr>
+            <tr>
+                <td class="image"><img src="baby_skyler.jpg" alt=""></td>
+                <td><span class="name">Автокресло<br>
+                Happy Baby Skyler</span>
+                <p><span class="manufactura">Производитель Y</span><br>
+                <span class="kat">Категория 2 > Категория 2.2 > Категория 2.3.5</span>
+                </p>
+                <button class="delete">Удалить</button>
+                </td>
+                <td class="price">18450 руб.</td>
+                <td><input type="number" value="1"></td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                <td></td>
+                <td colspan="3">Итого: 100500 руб.</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <h1>Список товаров</h1>
+    <div class="price-amount">
+        <table class="extra">
+       <thead>
+        <th></th>
+        <th></th>
+        <th>Цена</th>
+        <th>Количество</th>
+       </thead>        
+            <tbody>
+            <tr>
+                <td class="image"><img src="chico.jpg" alt=""></td>
+                <td><span class="name">Погремушка-прорезыватель "жираф"<br>
+                Chicco</span><br>
+                <p><span class="manufactura">Производитель A</span><br>
+                <span class="kat">Категория 3 > Категория 3.3 > Категория 3.2.1</span>
+                </p>
+                <button class="add">В корзину</button>
+                </td>
+                <td class="price">250 руб.</td>
+                <td><input type="number" value="1"></td>
+            </tr>
+            <tr>
+                <td class="image"><img src="smart_cam.jpg" alt=""></td>
+                <td><span class="name">Wi-Fi видеоняня<br>
+                Samsung SmartCam SNH-V6410PNW</span><br>
+                <p><span class="manufactura">Производитель B</span><br>
+                <span class="kat">Категория 2 > Категория 2.2 > Категория 2.3.5</span>
+                </p>
+                <button class="add">В корзину</button>
+                </td>
+                <td class="price">13999 руб.</td>
+                <td><input type="number" value="1"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+<script rel="tex/javascript" src="cart.js"></script>
+</body>
+</html>
